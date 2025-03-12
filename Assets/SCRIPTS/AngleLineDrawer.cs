@@ -4,10 +4,12 @@ using TMPro; // For Text UI
 public class AngleLineDrawer : MonoBehaviour
 {
     public Transform lowerBack;  
+    public Transform upperBack;  
     public Transform head;       
     public TextMeshProUGUI angleText;  // Assign in Inspector
 
     private LineRenderer lineRenderer;
+    private bool useUpperBack = false; // Toggle state
 
     void Start()
     {
@@ -21,44 +23,69 @@ public class AngleLineDrawer : MonoBehaviour
 
     void Update()
     {
-        if (lowerBack != null && head != null)
+        
+        // Select the reference joint
+        Transform referenceBack = useUpperBack ? upperBack : lowerBack;
+
+        if (referenceBack != null && head != null)
         {
             // Update LineRenderer positions
-            lineRenderer.SetPosition(0, lowerBack.position);
+            lineRenderer.SetPosition(0, referenceBack.position);
             lineRenderer.SetPosition(1, head.position);
 
             // Calculate angle
-            Vector3 direction = head.position - lowerBack.position;
+            Vector3 direction = head.position - referenceBack.position;
             float angle = Vector3.Angle(Vector3.up, direction);
 
             // Change color based on angle
-            Color lineColor = GetColorFromAngle(angle);
+            Color lineColor = useUpperBack ? GetColorForUpperBack(angle) : GetColorForLowerBack(angle);
             lineRenderer.startColor = lineColor;
             lineRenderer.endColor = lineColor;
 
             // Update UI text
             if (angleText != null)
             {
-                angleText.text = "Angle: " + angle.ToString("F2") + "°";
-                angleText.color = lineColor; // Optional: Change text color to match
+                string jointName = useUpperBack ? "Upper Back" : "Lower Back";
+                angleText.text = $"{jointName} Angle: {angle:F2}°";
+                angleText.color = lineColor;
             }
         }
     }
 
-    Color GetColorFromAngle(float angle)
+    Color GetColorForLowerBack(float angle)
     {
-        if (angle < 5f) return Color.blue;   // Good posture
-        if (angle < 20f) return Color.green; // Slight tilt
-        if (angle < 60f) return Color.yellow; // large tilt
-        return Color.red;                      // Extreme tilt
+        if (angle < 5f) return Color.blue;    // Perfect posture
+        if (angle < 20f) return Color.green;  // Slight tilt
+        if (angle < 60f) return Color.yellow; // Large tilt
+        return Color.red;                     // Extreme tilt
     }
 
+    Color GetColorForUpperBack(float angle)
+    {
+        if (angle < 10f) return Color.blue;    // Perfect posture
+        if (angle < 20f) return Color.green;  // Slight tilt
+        if (angle > 20f) return Color.red; // Large tilt
+        return Color.red;                     // Extreme tilt
+    }
     void OnDrawGizmos()
     {
-        if (lowerBack != null && head != null)
+        Transform referenceBack = useUpperBack ? upperBack : lowerBack;
+        if (referenceBack != null && head != null)
         {
             Gizmos.color = Color.blue;
-            Gizmos.DrawLine(lowerBack.position, head.position);
+            Gizmos.DrawLine(referenceBack.position, head.position);
         }
+    }
+
+     // UI Button function to enable Upper Back
+    public void EnableUpperBack()
+    {
+        useUpperBack = true;
+    }
+
+    // UI Button function to switch back to Lower Back
+    public void DisableUpperBack()
+    {
+        useUpperBack = false;
     }
 }
