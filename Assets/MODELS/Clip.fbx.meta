@@ -3,7 +3,12 @@ guid: ca73110b41b473e468bcf2e1d84c0d08
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RKK_Joint
+    second: {fileID: 2100000, guid: 6eb394a9336c58347a11b90632a6aef8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
