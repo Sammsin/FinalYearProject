@@ -144,10 +144,6 @@ PlayerSettings:
   preloadedAssets:
   - {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   - {fileID: 11400000, guid: 70a9e4fe12e7ed148a4927b081f73e61, type: 2}
-  - {fileID: 11400000, guid: c677e5c4eb85b7849a8da406775c299d, type: 2}
-  - {fileID: -8182961473668329860, guid: 5b9104a466ec6444b835a34b24069957, type: 2}
-  - {fileID: -7124190922882432649, guid: 0490e4f9456d8d3439ebbfd9c7b83521, type: 2}
-  - {fileID: 11400000, guid: 68272c36919a13846adbefef27ccdff1, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -885,6 +881,8 @@ PlayerSettings:
   syncCapabilities: 0
   platformCapabilities:
     WindowsStoreApps:
+      SpatialPerception: True
+      WebCam: True
       Microphone: True
   metroTargetDeviceFamilies: {}
   metroFTAName: 
