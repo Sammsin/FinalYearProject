@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Sam\\OneDrive\\Desktop\\Documents\\GitHub\\FinalYearProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\OneDrive\\Desktop\\Documents\\GitHub\\FinalYearProject\\Assets\\SCRIPTS\\GrabRotate.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCRIPTS\\GrabRotate.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\OneDrive\\Desktop\\Documents\\GitHub\\FinalYearProject\\Assets\\SCRIPTS\\fitCollidertoUI.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCRIPTS\\fitCollidertoUI.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\OneDrive\\Desktop\\Documents\\GitHub\\FinalYearProject\\Assets\\SCRIPTS\\BillBoard.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -13,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\OneDrive\\Desktop\\Documents\\GitHub\\FinalYearProject\\Assets\\SCRIPTS\\AttacchToHand.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCRIPTS\\AttacchToHand.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\OneDrive\\Desktop\\Documents\\GitHub\\FinalYearProject\\Assets\\SCRIPTS\\fitCollidertoUI.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\SCRIPTS\\fitCollidertoUI.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sam\\OneDrive\\Desktop\\Documents\\GitHub\\FinalYearProject\\Assets\\SCRIPTS\\AngleLineDrawer.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
@@ -30,21 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GrabRotate.cs",
-              "DocumentMoniker": "C:\\Users\\Sam\\OneDrive\\Desktop\\Documents\\GitHub\\FinalYearProject\\Assets\\SCRIPTS\\GrabRotate.cs",
-              "RelativeDocumentMoniker": "Assets\\SCRIPTS\\GrabRotate.cs",
-              "ToolTip": "C:\\Users\\Sam\\OneDrive\\Desktop\\Documents\\GitHub\\FinalYearProject\\Assets\\SCRIPTS\\GrabRotate.cs",
-              "RelativeToolTip": "Assets\\SCRIPTS\\GrabRotate.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T17:21:50.748Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -53,23 +36,19 @@
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\BillBoard.cs",
               "ToolTip": "C:\\Users\\Sam\\OneDrive\\Desktop\\Documents\\GitHub\\FinalYearProject\\Assets\\SCRIPTS\\BillBoard.cs",
               "RelativeToolTip": "Assets\\SCRIPTS\\BillBoard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T17:05:35.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T17:05:35.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "fitCollidertoUI.cs",
               "DocumentMoniker": "C:\\Users\\Sam\\OneDrive\\Desktop\\Documents\\GitHub\\FinalYearProject\\Assets\\SCRIPTS\\fitCollidertoUI.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\fitCollidertoUI.cs",
               "ToolTip": "C:\\Users\\Sam\\OneDrive\\Desktop\\Documents\\GitHub\\FinalYearProject\\Assets\\SCRIPTS\\fitCollidertoUI.cs",
               "RelativeToolTip": "Assets\\SCRIPTS\\fitCollidertoUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:32:20.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:32:20.848Z"
             },
             {
               "$type": "Document",
@@ -81,12 +60,11 @@
               "RelativeToolTip": "Assets\\SCRIPTS\\AttacchToHand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T14:02:04.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T14:02:04.692Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "AngleLineDrawer.cs",
               "DocumentMoniker": "C:\\Users\\Sam\\OneDrive\\Desktop\\Documents\\GitHub\\FinalYearProject\\Assets\\SCRIPTS\\AngleLineDrawer.cs",
               "RelativeDocumentMoniker": "Assets\\SCRIPTS\\AngleLineDrawer.cs",
@@ -94,8 +72,7 @@
               "RelativeToolTip": "Assets\\SCRIPTS\\AngleLineDrawer.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAEcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T00:49:47.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T00:49:47.422Z"
             }
           ]
         }

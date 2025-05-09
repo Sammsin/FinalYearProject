@@ -27,7 +27,7 @@ public class GrabRotate : MonoBehaviour
             Vector3 deltaPosition = currentPosition - lastPosition;
 
             // Apply rotation on the Y-axis based on horizontal movement
-            transform.Rotate(Vector3.up, deltaPosition.x * 150f);  // Adjust multiplier for rotation speed
+            transform.Rotate(Vector3.up, deltaPosition.x * 500f);  // Adjust multiplier for rotation speed
 
             lastPosition = currentPosition;  // Update the last position for the next frame
         }
