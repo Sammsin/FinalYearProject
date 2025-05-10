@@ -38,7 +38,7 @@ public class AngleLineDrawer : MonoBehaviour
             float angle = Vector3.Angle(Vector3.up, direction);
 
             // Determine if the angle is positive or negative
-           // float sign = Mathf.Sign(Vector3.Cross(Vector3.up, direction).z);  // Check direction of cross product
+            float sign = Mathf.Sign(Vector3.Cross(Vector3.up, direction).z);  // Check direction of cross product
 
            // if (sign < 0) angle = -angle;  // If negative, adjust angle direction
 
